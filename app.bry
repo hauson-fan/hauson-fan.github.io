@@ -1,3 +1,6 @@
+import uuid
+uuid.uuid4()
+
 from browser import document, html
 
 # Construction de la calculatrice
