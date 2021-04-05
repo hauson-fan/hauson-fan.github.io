@@ -1,11 +1,10 @@
 from browser import document, html
-from decimal import Decimal
 
 # Construction de la calculatrice
 calc = html.TABLE()
 calc <= html.TR(html.TH(html.DIV("0", id="result"), colspan=3) +
                 html.TD("C"))
-lines = [["Decimal","(",")","%"],["7","8","9","/"], ["4","5","6","*"], ["1","2","3","-"], ["0",".","=","+"]]
+lines = [["7","8","9","/"], ["4","5","6","*"], ["1","2","3","-"], ["0",".","=","+"]]
 
 calc <= (html.TR(html.TD(x) for x in line) for line in lines)
 
