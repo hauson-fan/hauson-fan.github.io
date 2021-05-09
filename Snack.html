@@ -84,16 +84,16 @@
         def key_push(evt):
             global xv, yv, pre_pause, paused
             key = evt.keyCode
-            if key == 37 and not paused:
+            if key == 65 and not paused:
                 xv = -1
                 yv = 0
-            elif key == 38 and not paused:
+            elif key == 87 and not paused:
                 xv = 0
                 yv = -1
-            elif key == 39 and not paused:
+            elif key == 68 and not paused:
                 xv = 1
                 yv = 0
-            elif key == 40 and not paused:
+            elif key == 83 and not paused:
                 xv = 0
                 yv = 1
             elif key == 32:
@@ -104,7 +104,7 @@
                 paused = not paused
             
         def show_instructions(evt):
-            window.alert("用上下左右键移动和空格键结束。")
+            window.alert("用WASD移动和空格键结束。")
         
         canvas = document["game-board"]
         ctx = canvas.getContext("2d")
