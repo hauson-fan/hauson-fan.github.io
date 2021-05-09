@@ -84,16 +84,16 @@
         def key_push(evt):
             global xv, yv, pre_pause, paused
             key = evt.keyCode
-            if key == 65 and not paused:
+            if key == (65 or 37) and not paused:
                 xv = -1
                 yv = 0
-            elif key == 87 and not paused:
+            elif key == (87 or 38) and not paused:
                 xv = 0
                 yv = -1
-            elif key == 68 and not paused:
+            elif key == (68 or 39) and not paused:
                 xv = 1
                 yv = 0
-            elif key == 83 and not paused:
+            elif key == (83 or 40) and not paused:
                 xv = 0
                 yv = 1
             elif key == 32:
