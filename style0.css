@@ -17,6 +17,7 @@ a {
   border-color:rgb(255, 255, 255);
   outline:none;
   transition:0.15s linear;
+  text-align:center;
 }
 .panel{
   width:90%;
