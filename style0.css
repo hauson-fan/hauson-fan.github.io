@@ -2,11 +2,10 @@
   box-sizing: border-box;
 }
 body {
-  background-image:url("konodioda.png");
-  background-repeat:repeat;
-  background-position:left top;
-  background-attachment:scroll;
-  background-size:auto;
+  background-image:url("school.JPG") no-reapt center center fixed;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 a {
   font-weight:600;
