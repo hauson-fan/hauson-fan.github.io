@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  background-image:url("school.JPG") no-reapt center center fixed;
+  background-image:url("./school.JPG") no-reapt center center fixed;
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
