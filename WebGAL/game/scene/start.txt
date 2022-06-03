@@ -1,0 +1,2 @@
+intro:这是一个有关爱与烧仙草的故事;
+bgm:march_to_river_drina.ogg;
