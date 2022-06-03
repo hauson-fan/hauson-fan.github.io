@@ -1,0 +1,3 @@
+Game_name:联省把妹王;
+Title_bgm:march_to_river_drina.ogg;
+Title_img:Background.png;
